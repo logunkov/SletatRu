@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		BDCFAAA32AA81E8700806575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAA22AA81E8700806575 /* AppDelegate.swift */; };
 		BDCFAAA52AA81E8700806575 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAA42AA81E8700806575 /* SceneDelegate.swift */; };
-		BDCFAAA72AA81E8700806575 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAA62AA81E8700806575 /* ViewController.swift */; };
-		BDCFAAAA2AA81E8700806575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCFAAA82AA81E8700806575 /* Main.storyboard */; };
 		BDCFAAAC2AA81E8800806575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCFAAAB2AA81E8800806575 /* Assets.xcassets */; };
 		BDCFAAAF2AA81E8800806575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCFAAAD2AA81E8800806575 /* LaunchScreen.storyboard */; };
 		BDCFAABA2AA81E8900806575 /* SletatRuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAB92AA81E8900806575 /* SletatRuTests.swift */; };
 		BDCFAAC42AA81E8900806575 /* SletatRuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAC32AA81E8900806575 /* SletatRuUITests.swift */; };
 		BDCFAAC62AA81E8900806575 /* SletatRuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAC52AA81E8900806575 /* SletatRuUITestsLaunchTests.swift */; };
+		BDCFAAD72AA827EC00806575 /* swiftgen.sh in Resources */ = {isa = PBXBuildFile; fileRef = BDCFAAD62AA827EC00806575 /* swiftgen.sh */; };
+		BDCFAAD92AA827F600806575 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = BDCFAAD82AA827F600806575 /* swiftgen.yml */; };
+		BDCFAADD2AA8281200806575 /* Strings.stencil in Resources */ = {isa = PBXBuildFile; fileRef = BDCFAADB2AA8281200806575 /* Strings.stencil */; };
+		BDCFAADE2AA8281200806575 /* Assets.stencil in Resources */ = {isa = PBXBuildFile; fileRef = BDCFAADC2AA8281200806575 /* Assets.stencil */; };
+		BDCFAAE12AA82A1400806575 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDCFAAE32AA82A1400806575 /* Localizable.strings */; };
+		BDCFAAE72AA82BD800806575 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAE52AA82BD800806575 /* Strings.swift */; };
+		BDCFAAE82AA82BD800806575 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAE62AA82BD800806575 /* Assets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		BDCFAA9F2AA81E8700806575 /* SletatRu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SletatRu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCFAAA22AA81E8700806575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDCFAAA42AA81E8700806575 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDCFAAA62AA81E8700806575 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BDCFAAA92AA81E8700806575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDCFAAAB2AA81E8800806575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDCFAAAE2AA81E8800806575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDCFAAB02AA81E8800806575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,13 @@
 		BDCFAABF2AA81E8900806575 /* SletatRuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SletatRuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCFAAC32AA81E8900806575 /* SletatRuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SletatRuUITests.swift; sourceTree = "<group>"; };
 		BDCFAAC52AA81E8900806575 /* SletatRuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SletatRuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDCFAAD62AA827EC00806575 /* swiftgen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = swiftgen.sh; path = SletatRu/SwiftGen/swiftgen.sh; sourceTree = SOURCE_ROOT; };
+		BDCFAAD82AA827F600806575 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = swiftgen.yml; path = SletatRu/SwiftGen/swiftgen.yml; sourceTree = SOURCE_ROOT; };
+		BDCFAADB2AA8281200806575 /* Strings.stencil */ = {isa = PBXFileReference; lastKnownFileType = file; name = Strings.stencil; path = SletatRu/SwiftGen/Templates/Strings.stencil; sourceTree = SOURCE_ROOT; };
+		BDCFAADC2AA8281200806575 /* Assets.stencil */ = {isa = PBXFileReference; lastKnownFileType = file; name = Assets.stencil; path = SletatRu/SwiftGen/Templates/Assets.stencil; sourceTree = SOURCE_ROOT; };
+		BDCFAAE22AA82A1400806575 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDCFAAE52AA82BD800806575 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		BDCFAAE62AA82BD800806575 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,9 @@
 		BDCFAAA12AA81E8700806575 /* SletatRu */ = {
 			isa = PBXGroup;
 			children = (
+				BDCFAAD22AA8217600806575 /* SupportingFiles */,
 				BDCFAAA22AA81E8700806575 /* AppDelegate.swift */,
 				BDCFAAA42AA81E8700806575 /* SceneDelegate.swift */,
-				BDCFAAA62AA81E8700806575 /* ViewController.swift */,
-				BDCFAAA82AA81E8700806575 /* Main.storyboard */,
-				BDCFAAAB2AA81E8800806575 /* Assets.xcassets */,
-				BDCFAAAD2AA81E8800806575 /* LaunchScreen.storyboard */,
-				BDCFAAB02AA81E8800806575 /* Info.plist */,
 			);
 			path = SletatRu;
 			sourceTree = "<group>";
@@ -127,6 +133,47 @@
 			path = SletatRuUITests;
 			sourceTree = "<group>";
 		};
+		BDCFAAD22AA8217600806575 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFAAE42AA82AC600806575 /* Autogenerated */,
+				BDCFAAD52AA8272300806575 /* SwiftGen */,
+				BDCFAAAB2AA81E8800806575 /* Assets.xcassets */,
+				BDCFAAAD2AA81E8800806575 /* LaunchScreen.storyboard */,
+				BDCFAAB02AA81E8800806575 /* Info.plist */,
+				BDCFAAE32AA82A1400806575 /* Localizable.strings */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		BDCFAAD52AA8272300806575 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFAADA2AA8280600806575 /* Templates */,
+				BDCFAAD62AA827EC00806575 /* swiftgen.sh */,
+				BDCFAAD82AA827F600806575 /* swiftgen.yml */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		BDCFAADA2AA8280600806575 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFAADC2AA8281200806575 /* Assets.stencil */,
+				BDCFAADB2AA8281200806575 /* Strings.stencil */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		BDCFAAE42AA82AC600806575 /* Autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFAAE62AA82BD800806575 /* Assets.swift */,
+				BDCFAAE52AA82BD800806575 /* Strings.swift */,
+			);
+			path = Autogenerated;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +181,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDCFAAC92AA81E8900806575 /* Build configuration list for PBXNativeTarget "SletatRu" */;
 			buildPhases = (
+				BDCFAAD32AA822D700806575 /* Run SwiftLint */,
+				BDCFAAE92AA82CBB00806575 /* Run SwiftFormat */,
+				BDCFAAD42AA826D000806575 /* Run SwiftGen */,
 				BDCFAA9B2AA81E8700806575 /* Sources */,
 				BDCFAA9C2AA81E8700806575 /* Frameworks */,
 				BDCFAA9D2AA81E8700806575 /* Resources */,
@@ -232,8 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDCFAAAF2AA81E8800806575 /* LaunchScreen.storyboard in Resources */,
+				BDCFAAD72AA827EC00806575 /* swiftgen.sh in Resources */,
 				BDCFAAAC2AA81E8800806575 /* Assets.xcassets in Resources */,
-				BDCFAAAA2AA81E8700806575 /* Main.storyboard in Resources */,
+				BDCFAAE12AA82A1400806575 /* Localizable.strings in Resources */,
+				BDCFAADD2AA8281200806575 /* Strings.stencil in Resources */,
+				BDCFAAD92AA827F600806575 /* swiftgen.yml in Resources */,
+				BDCFAADE2AA8281200806575 /* Assets.stencil in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +307,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BDCFAAD32AA822D700806575 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n\tswiftlint --fix && swiftlint\nelse\n\techo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		BDCFAAD42AA826D000806575 /* Run SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftGen";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SletatRu/SwiftGen/swiftgen.sh\n";
+		};
+		BDCFAAE92AA82CBB00806575 /* Run SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftFormat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftformat > /dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDCFAA9B2AA81E8700806575 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDCFAAA72AA81E8700806575 /* ViewController.swift in Sources */,
 				BDCFAAA32AA81E8700806575 /* AppDelegate.swift in Sources */,
+				BDCFAAE72AA82BD800806575 /* Strings.swift in Sources */,
+				BDCFAAE82AA82BD800806575 /* Assets.swift in Sources */,
 				BDCFAAA52AA81E8700806575 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,20 +412,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BDCFAAA82AA81E8700806575 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDCFAAA92AA81E8700806575 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BDCFAAAD2AA81E8800806575 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BDCFAAAE2AA81E8800806575 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BDCFAAE32AA82A1400806575 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDCFAAE22AA82A1400806575 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -366,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,12 +554,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LKK2YPD73Z;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SletatRu/Info.plist;
+				INFOPLIST_FILE = SletatRu/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +568,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -467,12 +581,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LKK2YPD73Z;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SletatRu/Info.plist;
+				INFOPLIST_FILE = SletatRu/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +595,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
