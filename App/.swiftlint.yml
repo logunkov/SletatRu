@@ -2,7 +2,7 @@
 # https://github.com/realm/SwiftLint
 # список правил, которые необходимо включить (по умолчанию отключены)
 opt_in_rules:
-  - anyobject_protocol
+#  - anyobject_protocol
   - closure_body_length
   - closure_end_indentation
   - closure_spacing
@@ -74,7 +74,7 @@ return_arrow_whitespace: error
 comma: error
 vertical_parameter_alignment: error
 vertical_parameter_alignment_on_call: error
-anyobject_protocol: error
+# anyobject_protocol: error
 private_outlet:
   allow_private_set: true
 lower_acl_than_parent: error
