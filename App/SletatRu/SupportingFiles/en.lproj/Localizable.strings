@@ -5,3 +5,76 @@
   Created by Constantin on 06.09.2023.
   
 */
+"URL.hotel" = "https://run.mocky.io/v3/35e0d18e-2521-4f1b-a575-f0fe366f66e3";
+"URL.room" = "https://run.mocky.io/v3/f9a38183-6f95-43aa-853a-9c83cbb05ecd";
+"URL.booking" = "https://run.mocky.io/v3/e8868481-743f-4eb2-a0d7-2bc4012275c8";
+
+"TableViewCell.room" = "RoomTableViewCell";
+
+"FatalError.required" = "init(coder:) has not been implemented";
+"FatalError.cell" = "Unable to dequeue Cell";
+
+"NavigationItem.hotel" = "Отель";
+"NavigationItem.booking" = "Бронирование";
+"NavigationItem.paid" = "Заказ оплачен";
+
+"Hotel.button" = "К выбору номера";
+"Hotel.aboutHotel" = "Об отеле";
+"Hotel.localization" = "ru_RU";
+"Hotel.star" = "★";
+"Hotel.fron" = "от ";
+
+"Room.aboutRoom" = "Подробнее о номере";
+"Room.chooseNumber" = "Выбрать номер";
+
+"Booking.Hotel.departureFrom" = "Вылет из";
+"Booking.Hotel.countryCity" = "Страна, город";
+"Booking.Hotel.dates" = "Даты";
+"Booking.Hotel.numberNights" = "Кол-во ночей";
+"Booking.Hotel.hotel" = "Отель";
+"Booking.Hotel.number" = "Номер";
+"Booking.Hotel.nutrition" = "Питание";
+"Booking.Hotel.nights" = " ночей";
+
+"Booking.Tourist.informatioAboutBuyer" = "Информация о покупателе";
+"Booking.Tourist.phoneNumber" = "Номер телефона";
+"Booking.Tourist.mail" = "Почта";
+"Booking.Tourist.nonDisclosure" = "Эти данные никому не передаются. После оплаты мы вышли чек на указанный вами номер и почту";
+
+"Booking.Tour.tour" = "Тур";
+"Booking.Tour.fuel" = "Топливный сбор";
+"Booking.Tour.service" = "Сервисный сбор";
+"Booking.Tour.paid" = "К оплате";
+
+"Booking.Guest.firstName" = "Имя";
+"Booking.Guest.lastName" = "Фамилия";
+"Booking.Guest.dateBirth" = "Дата рождения";
+"Booking.Guest.citizenship" = "Гражданство";
+"Booking.Guest.passportNumber" = "Номер загранпаспорта";
+"Booking.Guest.validityPeriodPassport" = "Срок действия загранпаспорта";
+"Booking.Guest.addTourist" = "Добавить туриста";
+"Booking.Guest.button" = "Оплатить ";
+
+"Booking.indexTourist.one" = "Первый турист";
+"Booking.indexTourist.two" = "Второй турист";
+"Booking.indexTourist.three" = "Третий турист";
+"Booking.indexTourist.four" = "Четвертый турист";
+"Booking.indexTourist.five" = "Пятый турист";
+
+"Paid.emoji" = "🎉";
+"Paid.acceptedForWork" = "Ваш заказ принят в работу";
+"Paid.orderConfirmation" = "Подтверждение заказа №104893 может занять некоторое время (от 1 часа до суток). Как только мы получим ответ от туроператора, вам на почту придет уведомление.";
+"Paid.button" = "Супер!";
+
+"SystemImage.face" = "face.smiling";
+"SystemImage.checkmark" = "checkmark.square";
+"SystemImage.xmark" = "xmark.square";
+"SystemImage.chevronRight" = "chevron.right";
+"SystemImage.chevronUp" = "chevron.up";
+"SystemImage.chevronDown" = "chevron.down";
+"SystemImage.plus" = "plus";
+
+"HotelButton.conveniences" = "Удобства";
+"HotelButton.included" = "Что включено";
+"HotelButton.notIncluded" = "Что не включено";
+"HotelButton.mostNecessary" = "Самое необходимое";
