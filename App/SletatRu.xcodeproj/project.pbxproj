@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0D6BBB2AAAE4D800C8DB92 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D6BBA2AAAE4D800C8DB92 /* PaddingLabel.swift */; };
+		BD0D6BBF2AAED29000C8DB92 /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D6BBE2AAED29000C8DB92 /* RoomView.swift */; };
+		BDC9AFA52AB83AD000C3D91B /* PaidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC9AFA42AB83AD000C3D91B /* PaidView.swift */; };
+		BDC9AFA72AB8543D00C3D91B /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC9AFA62AB8543D00C3D91B /* BookingView.swift */; };
 		BDCFAAA32AA81E8700806575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAA22AA81E8700806575 /* AppDelegate.swift */; };
 		BDCFAAA52AA81E8700806575 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAA42AA81E8700806575 /* SceneDelegate.swift */; };
 		BDCFAAAC2AA81E8800806575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCFAAAB2AA81E8800806575 /* Assets.xcassets */; };
@@ -21,6 +25,24 @@
 		BDCFAAE12AA82A1400806575 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDCFAAE32AA82A1400806575 /* Localizable.strings */; };
 		BDCFAAE72AA82BD800806575 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAE52AA82BD800806575 /* Strings.swift */; };
 		BDCFAAE82AA82BD800806575 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAE62AA82BD800806575 /* Assets.swift */; };
+		BDCFAAF02AA8593200806575 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAEF2AA8593200806575 /* Sizes.swift */; };
+		BDCFAAF22AA8593E00806575 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAF12AA8593E00806575 /* Theme.swift */; };
+		BDCFAAF62AA8596D00806575 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAF52AA8596D00806575 /* UIColor+Hex.swift */; };
+		BDCFAAF82AA8598000806575 /* UIColor+Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAF72AA8598000806575 /* UIColor+Dynamic.swift */; };
+		BDCFAAFA2AA85A0300806575 /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAF92AA85A0300806575 /* HotelViewController.swift */; };
+		BDCFAAFC2AA85A1500806575 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAFB2AA85A1500806575 /* RoomViewController.swift */; };
+		BDCFAAFE2AA85A2300806575 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAFD2AA85A2300806575 /* BookingViewController.swift */; };
+		BDCFAB002AA85A2D00806575 /* PaidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAAFF2AA85A2D00806575 /* PaidViewController.swift */; };
+		BDCFAB042AA85BC000806575 /* HotelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAB032AA85BC000806575 /* HotelModel.swift */; };
+		BDCFAB062AA85C0A00806575 /* RoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAB052AA85C0A00806575 /* RoomModel.swift */; };
+		BDCFAB082AA85E8400806575 /* HotelWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAB072AA85E8400806575 /* HotelWorker.swift */; };
+		BDCFAB0A2AA85E8D00806575 /* RoomWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAB092AA85E8D00806575 /* RoomWorker.swift */; };
+		BDCFAB0E2AA96C8B00806575 /* BookingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAB0D2AA96C8B00806575 /* BookingModel.swift */; };
+		BDCFAB102AA96CF200806575 /* BookingWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAB0F2AA96CF200806575 /* BookingWorker.swift */; };
+		BDCFAB122AA96FBE00806575 /* HotelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAB112AA96FBE00806575 /* HotelView.swift */; };
+		BDCFAB142AA9722D00806575 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAB132AA9722D00806575 /* UIStackView+Extension.swift */; };
+		BDCFAB162AA9A61300806575 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAB152AA9A61300806575 /* CarouselView.swift */; };
+		BDCFAB182AA9A7ED00806575 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFAB172AA9A7ED00806575 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +63,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD0D6BBA2AAAE4D800C8DB92 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		BD0D6BBE2AAED29000C8DB92 /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		BDC9AFA42AB83AD000C3D91B /* PaidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidView.swift; sourceTree = "<group>"; };
+		BDC9AFA62AB8543D00C3D91B /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 		BDCFAA9F2AA81E8700806575 /* SletatRu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SletatRu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCFAAA22AA81E8700806575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDCFAAA42AA81E8700806575 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,11 +80,29 @@
 		BDCFAAC52AA81E8900806575 /* SletatRuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SletatRuUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BDCFAAD62AA827EC00806575 /* swiftgen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = swiftgen.sh; path = SletatRu/SwiftGen/swiftgen.sh; sourceTree = SOURCE_ROOT; };
 		BDCFAAD82AA827F600806575 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = swiftgen.yml; path = SletatRu/SwiftGen/swiftgen.yml; sourceTree = SOURCE_ROOT; };
-		BDCFAADB2AA8281200806575 /* Strings.stencil */ = {isa = PBXFileReference; lastKnownFileType = file; name = Strings.stencil; path = SletatRu/SwiftGen/Templates/Strings.stencil; sourceTree = SOURCE_ROOT; };
-		BDCFAADC2AA8281200806575 /* Assets.stencil */ = {isa = PBXFileReference; lastKnownFileType = file; name = Assets.stencil; path = SletatRu/SwiftGen/Templates/Assets.stencil; sourceTree = SOURCE_ROOT; };
+		BDCFAADB2AA8281200806575 /* Strings.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; name = Strings.stencil; path = SletatRu/SwiftGen/Templates/Strings.stencil; sourceTree = SOURCE_ROOT; };
+		BDCFAADC2AA8281200806575 /* Assets.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; name = Assets.stencil; path = SletatRu/SwiftGen/Templates/Assets.stencil; sourceTree = SOURCE_ROOT; };
 		BDCFAAE22AA82A1400806575 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BDCFAAE52AA82BD800806575 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		BDCFAAE62AA82BD800806575 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		BDCFAAEF2AA8593200806575 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		BDCFAAF12AA8593E00806575 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BDCFAAF52AA8596D00806575 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		BDCFAAF72AA8598000806575 /* UIColor+Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Dynamic.swift"; sourceTree = "<group>"; };
+		BDCFAAF92AA85A0300806575 /* HotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelViewController.swift; sourceTree = "<group>"; };
+		BDCFAAFB2AA85A1500806575 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		BDCFAAFD2AA85A2300806575 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		BDCFAAFF2AA85A2D00806575 /* PaidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidViewController.swift; sourceTree = "<group>"; };
+		BDCFAB032AA85BC000806575 /* HotelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelModel.swift; sourceTree = "<group>"; };
+		BDCFAB052AA85C0A00806575 /* RoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomModel.swift; sourceTree = "<group>"; };
+		BDCFAB072AA85E8400806575 /* HotelWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelWorker.swift; sourceTree = "<group>"; };
+		BDCFAB092AA85E8D00806575 /* RoomWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomWorker.swift; sourceTree = "<group>"; };
+		BDCFAB0D2AA96C8B00806575 /* BookingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingModel.swift; sourceTree = "<group>"; };
+		BDCFAB0F2AA96CF200806575 /* BookingWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingWorker.swift; sourceTree = "<group>"; };
+		BDCFAB112AA96FBE00806575 /* HotelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelView.swift; sourceTree = "<group>"; };
+		BDCFAB132AA9722D00806575 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		BDCFAB152AA9A61300806575 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		BDCFAB172AA9A7ED00806575 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +153,9 @@
 		BDCFAAA12AA81E8700806575 /* SletatRu */ = {
 			isa = PBXGroup;
 			children = (
+				BDCFAAEE2AA858FC00806575 /* Scenes */,
+				BDCFAAED2AA858E800806575 /* Theme */,
+				BDCFAAEC2AA858DE00806575 /* Extensions */,
 				BDCFAAD22AA8217600806575 /* SupportingFiles */,
 				BDCFAAA22AA81E8700806575 /* AppDelegate.swift */,
 				BDCFAAA42AA81E8700806575 /* SceneDelegate.swift */,
@@ -153,7 +200,8 @@
 				BDCFAAD62AA827EC00806575 /* swiftgen.sh */,
 				BDCFAAD82AA827F600806575 /* swiftgen.yml */,
 			);
-			path = SwiftGen;
+			name = SwiftGen;
+			path = ../SwiftGen;
 			sourceTree = "<group>";
 		};
 		BDCFAADA2AA8280600806575 /* Templates */ = {
@@ -172,6 +220,81 @@
 				BDCFAAE52AA82BD800806575 /* Strings.swift */,
 			);
 			path = Autogenerated;
+			sourceTree = "<group>";
+		};
+		BDCFAAEC2AA858DE00806575 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFAAF52AA8596D00806575 /* UIColor+Hex.swift */,
+				BDCFAAF72AA8598000806575 /* UIColor+Dynamic.swift */,
+				BDCFAB132AA9722D00806575 /* UIStackView+Extension.swift */,
+				BDCFAB172AA9A7ED00806575 /* UIView+Extensions.swift */,
+				BD0D6BBA2AAAE4D800C8DB92 /* PaddingLabel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BDCFAAED2AA858E800806575 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFAAEF2AA8593200806575 /* Sizes.swift */,
+				BDCFAAF12AA8593E00806575 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		BDCFAAEE2AA858FC00806575 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFAB152AA9A61300806575 /* CarouselView.swift */,
+				BDCFAB012AA85B1800806575 /* HotelScene */,
+				BDCFAB022AA85B6500806575 /* RoomScene */,
+				BDCFAB0C2AA96C6F00806575 /* BookingScene */,
+				BDCFAB0B2AA96C6300806575 /* PaidScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BDCFAB012AA85B1800806575 /* HotelScene */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFAB032AA85BC000806575 /* HotelModel.swift */,
+				BDCFAB112AA96FBE00806575 /* HotelView.swift */,
+				BDCFAAF92AA85A0300806575 /* HotelViewController.swift */,
+				BDCFAB072AA85E8400806575 /* HotelWorker.swift */,
+			);
+			path = HotelScene;
+			sourceTree = "<group>";
+		};
+		BDCFAB022AA85B6500806575 /* RoomScene */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFAB052AA85C0A00806575 /* RoomModel.swift */,
+				BD0D6BBE2AAED29000C8DB92 /* RoomView.swift */,
+				BDCFAAFB2AA85A1500806575 /* RoomViewController.swift */,
+				BDCFAB092AA85E8D00806575 /* RoomWorker.swift */,
+			);
+			path = RoomScene;
+			sourceTree = "<group>";
+		};
+		BDCFAB0B2AA96C6300806575 /* PaidScene */ = {
+			isa = PBXGroup;
+			children = (
+				BDC9AFA42AB83AD000C3D91B /* PaidView.swift */,
+				BDCFAAFF2AA85A2D00806575 /* PaidViewController.swift */,
+			);
+			path = PaidScene;
+			sourceTree = "<group>";
+		};
+		BDCFAB0C2AA96C6F00806575 /* BookingScene */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFAB0D2AA96C8B00806575 /* BookingModel.swift */,
+				BDC9AFA62AB8543D00C3D91B /* BookingView.swift */,
+				BDCFAAFD2AA85A2300806575 /* BookingViewController.swift */,
+				BDCFAB0F2AA96CF200806575 /* BookingWorker.swift */,
+			);
+			path = BookingScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +364,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					BDCFAA9E2AA81E8700806575 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -373,9 +496,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDCFAAA32AA81E8700806575 /* AppDelegate.swift in Sources */,
+				BDCFAAF62AA8596D00806575 /* UIColor+Hex.swift in Sources */,
+				BDCFAB162AA9A61300806575 /* CarouselView.swift in Sources */,
+				BDCFAB102AA96CF200806575 /* BookingWorker.swift in Sources */,
+				BDCFAB082AA85E8400806575 /* HotelWorker.swift in Sources */,
+				BDCFAB062AA85C0A00806575 /* RoomModel.swift in Sources */,
+				BDCFAAF82AA8598000806575 /* UIColor+Dynamic.swift in Sources */,
+				BDC9AFA52AB83AD000C3D91B /* PaidView.swift in Sources */,
+				BDCFAAF02AA8593200806575 /* Sizes.swift in Sources */,
+				BDCFAB142AA9722D00806575 /* UIStackView+Extension.swift in Sources */,
 				BDCFAAE72AA82BD800806575 /* Strings.swift in Sources */,
+				BDCFAB042AA85BC000806575 /* HotelModel.swift in Sources */,
+				BD0D6BBB2AAAE4D800C8DB92 /* PaddingLabel.swift in Sources */,
+				BDCFAAF22AA8593E00806575 /* Theme.swift in Sources */,
+				BDCFAB182AA9A7ED00806575 /* UIView+Extensions.swift in Sources */,
 				BDCFAAE82AA82BD800806575 /* Assets.swift in Sources */,
+				BDCFAAFC2AA85A1500806575 /* RoomViewController.swift in Sources */,
+				BDCFAB002AA85A2D00806575 /* PaidViewController.swift in Sources */,
 				BDCFAAA52AA81E8700806575 /* SceneDelegate.swift in Sources */,
+				BDCFAAFE2AA85A2300806575 /* BookingViewController.swift in Sources */,
+				BDC9AFA72AB8543D00C3D91B /* BookingView.swift in Sources */,
+				BDCFAB0E2AA96C8B00806575 /* BookingModel.swift in Sources */,
+				BDCFAB122AA96FBE00806575 /* HotelView.swift in Sources */,
+				BD0D6BBF2AAED29000C8DB92 /* RoomView.swift in Sources */,
+				BDCFAB0A2AA85E8D00806575 /* RoomWorker.swift in Sources */,
+				BDCFAAFA2AA85A0300806575 /* HotelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +612,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -527,6 +673,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -553,6 +700,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LKK2YPD73Z;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SletatRu/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -580,6 +728,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LKK2YPD73Z;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SletatRu/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
