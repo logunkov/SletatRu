@@ -1,5 +1,5 @@
 <div align="center">
-<img src="images/logo.png" alt="SletatRu Logo" width="256" />
+<img src="Images/logo.png" alt="SletatRu Logo" width="256" />
 </div>
 
 ## Task
@@ -10,11 +10,11 @@
 
 ### [Video](https://www.youtube.com/watch?v=SAXTwFr7Ce4&list=LL&index=1)
 
-<img src="images/step1.png" width="300" style="border: 1px solid black; margin-right: 10px;">
-<img src="images/step2.png" width="300" style="border: 1px solid black;">
+<img src="Images/step1.png" width="300" style="border: 1px solid black; margin-right: 10px;">
+<img src="Images/step2.png" width="300" style="border: 1px solid black;">
 
-<img src="images/step3.png" width="300" style="border: 1px solid black; margin-right: 10px;">
-<img src="images/step4.png" width="300" style="border: 1px solid black;">
+<img src="Images/step3.png" width="300" style="border: 1px solid black; margin-right: 10px;">
+<img src="Images/step4.png" width="300" style="border: 1px solid black;">
 
 ## Getting Started
 
