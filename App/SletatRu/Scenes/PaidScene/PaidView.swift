@@ -40,13 +40,13 @@ final class PaidView: UIView {
 
 		addSubviews([
 			mainStackView,
-			button,
+			button
 		])
 
 		mainStackView.addArrangedSubviews([
 			emojiLabel,
 			acceptedForWorkLabel,
-			orderConfirmationLabel,
+			orderConfirmationLabel
 		])
 
 		NSLayoutConstraint.activate([
@@ -55,7 +55,7 @@ final class PaidView: UIView {
 			mainStackView.centerYAnchor.constraint(equalTo: centerYAnchor),
 			button.leadingAnchor.constraint(equalTo: leadingAnchor, constant: Sizes.Medium.padding),
 			button.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -Sizes.Medium.padding),
-			button.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -Sizes.Medium.doublePadding),
+			button.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -Sizes.Medium.doublePadding)
 		])
 	}
 }

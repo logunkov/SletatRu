@@ -58,7 +58,7 @@ class BookingView: UIView {
 			mainStackView.topAnchor.constraint(equalTo: scrollView.topAnchor),
 			mainStackView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
 			mainStackView.leadingAnchor.constraint(equalTo: leadingAnchor),
-			mainStackView.trailingAnchor.constraint(equalTo: trailingAnchor),
+			mainStackView.trailingAnchor.constraint(equalTo: trailingAnchor)
 		])
 
 		scrollView.contentSize = mainStackView.bounds.size
@@ -87,7 +87,7 @@ class BookingView: UIView {
 		hotelStackView.addArrangedSubviews([
 			ratingHotelLabel,
 			nameHotelLabel,
-			mapHotelButton,
+			mapHotelButton
 		])
 	}
 
@@ -132,7 +132,7 @@ class BookingView: UIView {
 				infoText: L10n.Booking.Hotel.nutrition,
 				apiText: booking.nutrition,
 				textAlignment: .left
-			),
+			)
 		])
 	}
 
@@ -154,14 +154,14 @@ class BookingView: UIView {
 			informatioAboutBuyerLabel,
 			createTextStackView(text: L10n.Booking.Tourist.phoneNumber),
 			createTextStackView(text: L10n.Booking.Tourist.mail),
-			nonDisclosureLabel,
+			nonDisclosureLabel
 		])
 	}
 
 	private func createTouristsView() {
 		mainStackView.addArrangedSubviews([
 			createButtonStackView(text: numberToWord[indexTourist], imageString: L10n.SystemImage.chevronUp),
-			createButtonStackView(text: L10n.Booking.Guest.addTourist, imageString: L10n.SystemImage.plus),
+			createButtonStackView(text: L10n.Booking.Guest.addTourist, imageString: L10n.SystemImage.plus)
 		])
 	}
 
@@ -182,7 +182,7 @@ class BookingView: UIView {
 			createLabelStackView(infoText: L10n.Booking.Tour.tour, apiText: formattedTourPrice, textAlignment: .right),
 			createLabelStackView(infoText: L10n.Booking.Tour.fuel, apiText: formattedFuelCharge, textAlignment: .right),
 			createLabelStackView(infoText: L10n.Booking.Tour.service, apiText: formattedServiceCharge, textAlignment: .right),
-			createLabelStackView(infoText: L10n.Booking.Tour.paid, apiText: formattedPrice, textAlignment: .right),
+			createLabelStackView(infoText: L10n.Booking.Tour.paid, apiText: formattedPrice, textAlignment: .right)
 		])
 	}
 
@@ -346,7 +346,7 @@ private extension BookingView {
 			L10n.Booking.IndexTourist.two,
 			L10n.Booking.IndexTourist.three,
 			L10n.Booking.IndexTourist.four,
-			L10n.Booking.IndexTourist.five,
+			L10n.Booking.IndexTourist.five
 		]
 
 		return array
@@ -431,7 +431,7 @@ private extension BookingView {
 
 		stackView.addArrangedSubviews([
 			infoLabel,
-			apiLabel,
+			apiLabel
 		])
 
 		infoLabel.widthAnchor.constraint(equalTo: stackView.widthAnchor, multiplier: 0.4).isActive = true
@@ -470,7 +470,7 @@ private extension BookingView {
 
 		stackView.addArrangedSubviews([
 			label,
-			textField,
+			textField
 		])
 
 		return stackView
@@ -485,7 +485,7 @@ private extension BookingView {
 			createTextStackView(text: L10n.Booking.Guest.dateBirth),
 			createTextStackView(text: L10n.Booking.Guest.citizenship),
 			createTextStackView(text: L10n.Booking.Guest.passportNumber),
-			createTextStackView(text: L10n.Booking.Guest.validityPeriodPassport),
+			createTextStackView(text: L10n.Booking.Guest.validityPeriodPassport)
 		])
 
 		return stackView
@@ -521,7 +521,7 @@ private extension BookingView {
 
 		buttonStackView.addArrangedSubviews([
 			label,
-			button,
+			button
 		])
 
 		if imageString == L10n.SystemImage.plus {

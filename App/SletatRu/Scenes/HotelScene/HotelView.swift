@@ -57,7 +57,7 @@ class HotelView: UIView {
 			mainStackView.leadingAnchor.constraint(equalTo: leadingAnchor),
 			mainStackView.trailingAnchor.constraint(equalTo: trailingAnchor),
 
-			carouselView.heightAnchor.constraint(equalTo: carouselView.widthAnchor, multiplier: Sizes.Medium.multiplier),
+			carouselView.heightAnchor.constraint(equalTo: carouselView.widthAnchor, multiplier: Sizes.Medium.multiplier)
 		])
 	}
 
@@ -108,18 +108,18 @@ class HotelView: UIView {
 		hotelStackView.addArrangedSubviews([
 			carouselView,
 			nameHotelStackView,
-			priceHotelStackView,
+			priceHotelStackView
 		])
 
 		nameHotelStackView.addArrangedSubviews([
 			ratingHotelLabel,
 			nameHotelLabel,
-			mapHotelButton,
+			mapHotelButton
 		])
 
 		priceHotelStackView.addArrangedSubviews([
 			priceHotelLabel,
-			flyHotelLabel,
+			flyHotelLabel
 		])
 	}
 
@@ -160,7 +160,7 @@ class HotelView: UIView {
 			aboutHotelLabel,
 			peculiaritiesVerticalStackView,
 			descriptionAboutHotelLabel,
-			transitionAboutHotelStackView,
+			transitionAboutHotelStackView
 		])
 
 		peculiaritiesVerticalStackView.addArrangedSubview(peculiaritiesHorizontalStackView)
@@ -180,7 +180,7 @@ class HotelView: UIView {
 				imageString: L10n.SystemImage.xmark,
 				title: L10n.HotelButton.notIncluded,
 				subtitle: L10n.HotelButton.mostNecessary
-			),
+			)
 		])
 	}
 
@@ -311,7 +311,7 @@ private extension HotelView {
 				imageString: L10n.SystemImage.chevronRight,
 				title: nil,
 				subtitle: nil
-			),
+			)
 		])
 
 		stackView.layer.borderWidth = Sizes.Medium.borderWidth

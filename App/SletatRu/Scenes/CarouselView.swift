@@ -108,14 +108,14 @@ final class CarouselView: UIView {
 		addSubviews([
 			activityIndicatorView,
 			scrollView,
-			pageControl,
+			pageControl
 		])
 
 		NSLayoutConstraint.activate([
 			pageControl.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -Sizes.Medium.halfPadding),
 			pageControl.centerXAnchor.constraint(equalTo: centerXAnchor),
 			activityIndicatorView.centerXAnchor.constraint(equalTo: centerXAnchor),
-			activityIndicatorView.centerYAnchor.constraint(equalTo: centerYAnchor),
+			activityIndicatorView.centerYAnchor.constraint(equalTo: centerYAnchor)
 		])
 	}
 }

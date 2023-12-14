@@ -48,7 +48,7 @@ class RoomTableViewCell: UITableViewCell {
 			mainStackView.topAnchor.constraint(equalTo: topAnchor),
 			mainStackView.bottomAnchor.constraint(equalTo: bottomAnchor),
 
-			carouselView.heightAnchor.constraint(equalTo: carouselView.widthAnchor, multiplier: Sizes.Medium.multiplier),
+			carouselView.heightAnchor.constraint(equalTo: carouselView.widthAnchor, multiplier: Sizes.Medium.multiplier)
 		])
 	}
 
@@ -89,20 +89,20 @@ class RoomTableViewCell: UITableViewCell {
 
 		priceStackView.addArrangedSubviews([
 			priceLabel,
-			flyLabel,
+			flyLabel
 		])
 
 		aboutApartmentStackView.addArrangedSubviews([
 			nameLabel,
 			peculiaritiesVerticalStackView,
 			aboutRoomStackView,
-			priceStackView,
+			priceStackView
 		])
 
 		apartmentStackView.addArrangedSubviews([
 			carouselView,
 			aboutApartmentStackView,
-			choiseRoomButton,
+			choiseRoomButton
 		])
 
 		mainStackView.addArrangedSubview(apartmentStackView)
