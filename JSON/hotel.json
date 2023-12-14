@@ -1,0 +1,17 @@
+{
+	"id": 777,
+	"name": "Лучший пятизвездочный отель в Хургаде, Египет",
+	"adress": "Madinat Makadi, Safaga Road, Makadi Bay, Египет",
+	"minimalPrice": 134268,
+	"priceForIt": "За тур с перелётом",
+	"rating": 5,
+	"ratingName": "Превосходно",
+	"imageUrls": ["https://github.com/logunkov/SletatRu/raw/main/JSON/Image/hotel1.jpg", "https://github.com/logunkov/SletatRu/raw/main/JSON/Image/hotel2.jpg", "https://github.com/logunkov/SletatRu/raw/main/JSON/Image/hotel3.jpg"],
+	"aboutTheHotel": {
+		"description": "Отель VIP-класса с собственными гольф полями. Высокий уровнь сервиса. Рекомендуем для респектабельного отдыха. Отель принимает гостей от 18 лет!",
+		"peculiarities": ["Бесплатный Wifi на всей территории отеля", "Бесплатный фитнес-клуб", "1 км до пляжа", "20 км до аэропорта"]
+	}
+}
+
+
+

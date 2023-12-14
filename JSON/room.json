@@ -1,0 +1,30 @@
+{"rooms":
+	[
+		{
+			"id": 7771,
+			"name": "Стандартный номер с видом на бассейн",
+			"price": 186600,
+			"pricePer": "За 7 ночей с перелетом",
+			"peculiarities": ["Включен только завтрак", "Кондиционер"],
+			"imageUrls":
+			[
+				"https://github.com/logunkov/SletatRu/raw/main/JSON/Image/room1.jpg",
+				"https://github.com/logunkov/SletatRu/raw/main/JSON/Image/room2.jpg",
+				"https://github.com/logunkov/SletatRu/raw/main/JSON/Image/room3.jpg"
+			]
+		},
+		{
+			"id": 7772,
+			"name": "Люкс номер с видом на море",
+			"price": 289400,
+			"pricePer": "За 7 ночей с перелетом",
+			"peculiarities": ["Собственный бассейн", "Все включено","Кондиционер"],
+			"imageUrls":
+			[
+				"https://github.com/logunkov/SletatRu/raw/main/JSON/Image/room4.jpg",
+				"https://github.com/logunkov/SletatRu/raw/main/JSON/Image/room5.jpg",
+				"https://github.com/logunkov/SletatRu/raw/main/JSON/Image/room6.jpg"
+			]
+		}
+	]
+}
