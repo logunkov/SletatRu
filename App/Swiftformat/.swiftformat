@@ -2,6 +2,7 @@
 
 --exclude Tests/XCTestManifests.swift,Tests/BadConfig,Snapshots,Build,PluginTests
 
+
 # file options
 --swiftversion 5.7
 
