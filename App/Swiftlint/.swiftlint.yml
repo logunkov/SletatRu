@@ -39,9 +39,9 @@ opt_in_rules:
 
 # путь к исходникам для проверки кода
 included:
-  - SletatRu
-  - SletatRuTests
-  - SletatRuUITests
+  - ../SletatRu
+  - ../SletatRuTests
+  - ../SletatRuUITests
 
 # подкаталоги, в которых линтер не будет делать проверку кода
 excluded:
